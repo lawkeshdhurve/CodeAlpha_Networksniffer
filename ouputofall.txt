@@ -1,0 +1,26 @@
+ 1. python capture.py
+
+[+] Src IP: 23.217.111.186 → Dst IP: 192.168.43.123 | Protocol: 6 | TCP
+[+] Src IP: 23.217.111.186 → Dst IP: 192.168.43.123 | Protocol: 6 | TCP
+[+] Src IP: 192.168.43.123 → Dst IP: 23.217.111.186 | Protocol: 6 | TCP
+[+] Src IP: 192.168.43.123 → Dst IP: 23.217.111.186 | Protocol: 6 | TCP
+[+] Src IP: 192.168.43.123 → Dst IP: 23.217.111.186 | Protocol: 6 | TCP
+[+] Src IP: 23.217.111.186 → Dst IP: 192.168.43.123 | Protocol: 6 | TCP
+[+] Src IP: 23.217.111.186 → Dst IP: 192.168.43.123 | Protocol: 6 | TCP
+[+] Src IP: 23.217.111.186 → Dst IP: 192.168.43.123 | Protocol: 6 | TCP
+[+] Src IP: 192.168.43.123 → Dst IP: 23.217.111.186 | Protocol: 6 | TCP
+[+] Src IP: 23.217.111.186 → Dst IP: 192.168.43.123 | Protocol: 6 | TCP
+
+
+2.python anothercapture.py
+
+
+
+[2025-06-01 10:43:15] Src: 192.168.43.123 → Dst: 239.255.255.250 | Proto: 17 | Size: 190B | UDP Port: 55828 → 1900
+
+
+
+python updatedcapture.py
+
+[2025-06-01 10:59:03] Src: 20.52.64.200 → Dst: 192.168.43.123 | Proto: 6 | Size: 66B | TCP Port: 443 → 26316
+WARNING: Socket <scapy.arch.libpcap.L2pcapListenSocket object at 0x00000203DAEA3790> failed with ''charmap' codec can't encode character '\u2192' in position 40: character maps to <undefined>'. It was closed.
